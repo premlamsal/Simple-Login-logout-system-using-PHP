@@ -1,0 +1,78 @@
+.container{
+
+width: 100%;
+
+position:  relative;
+
+height:600px;
+}
+
+body{
+	font-family: sans-serif;
+	background:  #eee;
+}
+*{
+	margin: 0px;
+	padding:0px;
+}
+.formbox{position: absolute;top: 20%;left: 35%;width: 364px;border: 1px solid #9370db73;background: #fff;height: 278px;padding: 19px;border-radius:  11px;}
+input[type="text"] {
+	border: 1px solid #9370db4a;
+	width: 96%;
+	height:  36px;
+	border-radius:  5px;
+	padding-left: 10px;
+	margin-bottom:  11px;
+}
+
+input[type="password"] {
+    border: 1px solid #9370db4a;
+    width: 96%;
+    height: 36px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom:  13px;
+}
+h2 {
+    color: mediumpurple;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height:  47px;
+    border-radius:  6px;
+    cursor:  pointer;
+    color: mediumpurple;
+    background: #fff;
+    border: 1px solid mediumpurple;
+}
+input[type="submit"]:hover{background: mediumpurple;color: #fff;}
+.header {
+    width: auto;
+    color: white;
+    height:  30px;
+    padding:  23px;
+    background:  mediumpurple;
+}
+.header ul {
+    list-style:  none;
+}
+
+.header ul li {
+    float:  left;
+    margin-left: 30px;
+}
+
+.header ul li a {
+    text-decoration:  none;
+    color:  white;
+}
+.header ul li a:hover {
+    color:  yellow;
+}
+.user_info {
+    position:  absolute;
+    right:  69px;
+}
